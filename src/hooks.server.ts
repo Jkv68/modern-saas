@@ -1,5 +1,5 @@
 // src/hooks.server.ts
-import { ENV } from "$lib/server/env";
+import { ENV } from "$lib/server/env";  //  // $lib是預定module=src/lib 不用在svelte.config.js定義
 import { createSupabaseServerClient } from "@supabase/auth-helpers-sveltekit";
 import type { Handle } from "@sveltejs/kit";
 
